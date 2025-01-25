@@ -1,8 +1,6 @@
-<h1>Design Document: Home Care Nurse OASIS Form Automation App</h1>
+# Design Document: Home Care Nurse OASIS Form Automation App
 
-<div align = "justify">
 **Objective:** The Home Care Nurse OASIS Form Automation App leverages advanced Natural Language Processing (NLP) and Artificial Intelligence (AI) to streamline the completion of OASIS forms for home care nurses. By listening to and interpreting nurse-patient interactions, the app extracts relevant clinical data and automatically populates the OASIS form, reducing manual data entry/validation and minimizing errors. Streamlining OASIS assessments and improving care coordination for home health patients. 
-</div>
  
 ## Key Features 
 ●  NLP-Powered Transcription and Data Extraction: 
@@ -83,30 +81,25 @@ would indicate how a specific patient’s conditions are developing?
 
 ### Explorative Results
 
-<p align = "justify"> In `./notebooks/loss.ipynb` there is original research into the effectiveness of loss functions on summarization ability, based on user feedback. Because when you're designing a consumer product, you want to ensure that your product iterates based on market feedback</p>
+In `./notebooks/loss.ipynb` there is original research into the effectiveness of loss functions on summarization ability, based on user feedback. Because when you're designing a consumer product, you want to ensure that your product iterates based on market feedback
 
 ### Modelling Results
 
-<p align = "justify">In `./notebooks/models.ipynb`, we compare results from  </p>
+In `./notebooks/models.ipynb`, we compare results from closed and open source models. This is important because it allows us to understand the trade-offs between using open source models and closed source models.
 
 ### Configurations
 
-<p align = "justify">A <a href = "config"><code>config</code></a> directory is available to store and configure project with variables, values and/or other informations related to project template.</p>
-
-### Project Deployment and Planning
-
-<p align = "justify">:bookmark: Relevant information related to project deployment, planning, production ready code. For more information :interrobang: on individual version check <a href = "CHANGELOG.md">CHANGELOG</a>. :heavy_check_mark:</p>
+`./config` directory is available to store and configure project with variables, values and/or other informations related to project template.
 
 ## LICENSE & Contributions
 
-<p align = "justify">:label: A <a href = "CONTRIBUTING.md">CONTRIBUTING.md</a> file, in your open source repository or site, provides potential project contributors with a short guide to how they can help with your project or study group. It is convention to capitalize the word "contributing" as the file title, and to save it as a resource in markdown (hence the extension .md) (<a href = "https://mozillascience.github.io/working-open-workshop/contributing/">source</a>). :writing_hand: For <b>LICENSE</b> create or add your own file as <code>LICENSE</code>.</p>
+label: A (CONTRIBUTING.md)[CONTRIBUTING.md] file, in your open source repository or site, provides potential project contributors with a short guide to how they can help with your project or study group. It is convention to capitalize the word "contributing" as the file title, and to save it as a resource in markdown (hence the extension .md) (<a href = "https://mozillascience.github.io/working-open-workshop/contributing/">source</a>). :writing_hand: For <b>LICENSE</b> create or add your own file as `LICENSE`.
 
 ## Resources
 
-<p align = "justify">
-  Based on the AI-ML Project Template <br>
-  <a href="https://github.com/ZenithClown/ai-ml-project-template/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/ZenithClown/ai-ml-project-template?logo=git&style=plastic"></a>
-  <a href="https://github.com/ZenithClown/ai-ml-project-template/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/ZenithClown/ai-ml-project-template?style=plastic&logo=github"></a>
-  <a href="https://github.com/ZenithClown/ai-ml-project-template/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ZenithClown/ai-ml-project-template?style=plastic&logo=github"></a>
-  <a href="https://makeapullrequest.com/"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic&logo=open-source-initiative"></a>
-</p>
+  Based on the AI-ML Project Template by ZenithClown
+  <!-- Add badges here -->
+  ![Architecture](https://img.shields.io/github/issues/ZenithClown/ai-ml-project-template?logo=git&style=plastic")
+  ![GitHub forks](https://img.shields.io/github/forks/ZenithClown/ai-ml-project-template?style=plastic&logo=github)
+  ![GitHub stars](https://img.shields.io/github/stars/ZenithClown/ai-ml-project-template?style=plastic&logo=github)
+  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic&logo=open-source-initiative)
