@@ -10,7 +10,13 @@ An [OASIS form](https://www.cms.gov/files/document/oasis-e1-all-item-508.pdf) is
 
 ## Decision Making for linear RAG vs Agentic approaches
 
-An Agentic workflow requires a chain of thought reasoning approach, whereas much easier fields will just need a RAG extraction.
+An Agentic workflow  is necessary when 
+  - Cross-referencing between documents
+  - Temporal reasoning (e.g., comparing current/past conditions)
+  - Conflict resolution between sources
+  - Multi-hop reasoning (e.g., "If X in transcript and Y in history, then Z"),
+In a healthcare application, a supervised agentic approach will be the best way to think about these problems. Easier fields will just need a RAG extraction.
+The issue with an agentic workflow is that there will need to be a series of decisions to "hop" around, and in a healthcare context these decisions will need to be recorded and audited.
 
 | Factor                  | Agentic Needed                          | Basic RAG Sufficient                  |
 |-------------------------|-----------------------------------------|---------------------------------------|
