@@ -1,0 +1,41 @@
+Patient Information:
+Medicare#: [REDACTED]
+Date of Birth: 1960 (63)
+Gender: Female
+Language: English
+Triage Code: High Priority
+
+Primary Diagnosis: Post-operative Wound Care (L89.309)
+Secondary Diagnosis: MRSA-positive Surgical Site Infection
+Primary Clinician: Dr. Robert Chen
+Start of Care: 01/20/2024
+
+History of Present Illness:
+63-year-old female status post spinal fusion surgery complicated by post-operative infection. Patient discharged on IV antibiotics with complex wound care needs. Reports moderate pain controlled with oral medication.
+
+Past Medical History:
+- Degenerative disc disease
+- Fibromyalgia
+- Depression
+- Obesity (BMI 32)
+- History of MRSA infection (2022)
+
+Past Surgical History:
+- L4-L5 spinal fusion (01/05/2024)
+- Cesarean section (1990)
+- Appendectomy (1985)
+
+Physical Examination:
+General: Alert, oriented, mild discomfort
+Wound: 12cm midline surgical incision with moderate serosanguineous drainage
+Pain: 4/10 at rest, 7/10 with movement
+Neurological: Intact sensation, strength 4/5 lower extremities
+Mobility: Requires assistance with transfers
+
+Care Plan:
+- Skilled nursing daily for wound care and IV antibiotics
+- Physical therapy 3x weekly
+- Occupational therapy 2x weekly
+- Pain management
+- Infection control education
+- Wound care teaching
