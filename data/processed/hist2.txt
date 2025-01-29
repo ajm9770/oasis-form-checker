@@ -1,0 +1,40 @@
+Patient Information:
+Medicare#: [REDACTED]
+Date of Birth: 1952 (71)
+Gender: Female
+Language: English
+Triage Code: High Priority
+
+Primary Diagnosis: Congestive Heart Failure (I50.9)
+Secondary Diagnosis: Type 2 Diabetes, Hypertension
+Primary Clinician: Dr. Sarah Martinez
+Start of Care: 01/15/2024
+
+History of Present Illness:
+71-year-old female discharged from Memorial Hospital following acute exacerbation of CHF. Patient presented with increased shortness of breath, peripheral edema, and fatigue. Required oxygen supplementation during hospitalization. Now stable for home care management.
+
+Past Medical History:
+- Congestive heart failure diagnosed 2019
+- Type 2 diabetes (15 years)
+- Hypertension
+- Osteoarthritis
+- Chronic kidney disease stage 3
+
+Past Surgical History:
+- Total knee replacement (2020)
+- Cholecystectomy (2015)
+- Appendectomy (1985)
+
+Physical Examination:
+General: Alert, oriented, mild distress with exertion
+Respiratory: Decreased breath sounds bilateral bases, no wheezing
+Cardiovascular: Regular rhythm, S1/S2, +2 peripheral edema
+Neurological: Intact, strength 5/5 all extremities
+Skin: Intact, no breakdown
+
+Care Plan:
+- Skilled nursing 3x weekly
+- Physical therapy 2x weekly
+- Remote vital signs monitoring
+- Medication management
+- CHF education and monitoring
