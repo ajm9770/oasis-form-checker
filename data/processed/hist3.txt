@@ -1,0 +1,40 @@
+Patient Information:
+Medicare#: [REDACTED]
+Date of Birth: 1938 (85)
+Gender: Male
+Language: Spanish (interpreter needed)
+Triage Code: Medium Priority
+
+Primary Diagnosis: Status Post CVA (I63.9)
+Secondary Diagnosis: Dysphagia, Right-sided Weakness
+Primary Clinician: Dr. James Wilson
+Start of Care: 01/18/2024
+
+History of Present Illness:
+85-year-old male discharged from County General following left MCA stroke. Patient experienced sudden onset right-sided weakness and speech difficulties. Currently stable with improving symptoms but requiring assistance with ADLs and mobility.
+
+Past Medical History:
+- Hypertension
+- Atrial fibrillation on warfarin
+- Hyperlipidemia
+- Benign prostatic hyperplasia
+- History of GI bleed (2022)
+
+Past Surgical History:
+- Hip fracture repair (2021)
+- Prostate surgery (2018)
+
+Physical Examination:
+General: Alert, oriented x3, cooperative
+Neurological: Right-sided weakness 3/5, facial droop
+Speech: Moderate expressive aphasia
+Mobility: Requires walker, supervision for transfers
+Skin: Small pressure area on right heel, Stage 1
+
+Care Plan:
+- Skilled nursing 2x weekly
+- Physical therapy 3x weekly
+- Occupational therapy 3x weekly
+- Speech therapy 2x weekly
+- Caregiver training
+- Fall prevention education
