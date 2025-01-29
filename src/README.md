@@ -15,6 +15,7 @@ An Agentic workflow  is necessary when
   - Temporal reasoning (e.g., comparing current/past conditions)
   - Conflict resolution between sources
   - Multi-hop reasoning (e.g., "If X in transcript and Y in history, then Z"),
+
 In a healthcare application, a supervised agentic approach will be the best way to think about these problems. Easier fields will just need a RAG extraction.
 The issue with an agentic workflow is that there will need to be a series of decisions to "hop" around, and in a healthcare context these decisions will need to be recorded and audited.
 
