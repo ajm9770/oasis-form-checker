@@ -6,26 +6,31 @@
 **NLP-Powered Transcription and Data Extraction:**
  - Real-time transcription of nurse-patient conversations and dictation.
  - Advanced NLP algorithms to identify and extract relevant clinical data points
- **Intelligent OASIS Form Filling:**
+
+**Intelligent OASIS Form Filling:**
  - Mapping of extracted data to corresponding OASIS form fields.
  - AI-driven decision support to ensure accurate and complete form completion.
  - Contextual understanding to handle complex clinical scenarios and variations in 
 terminology.
  - Intelligent debriefing to ensure all data is present in the transcript. 
- **Historical Data Integration:**
+
+**Historical Data Integration:**
  - Integration with Electronic Health Records (EHRs) and other relevant data 
 sources to access patient history and pre-populate OASIS forms with existing 
 information.
  - Reduce QA time using a historical record of the patient’s interaction with the 
 system
+
 **User-Friendly Interface:**
  - Intuitive and easy-to-use interface for seamless navigation and data entry. 
  - Customizable templates and workflows to adapt to individual nurse preferences 
 and agency requirements. 
  - Voice commands and dictation capabilities for hands-free operation. 
+
 **Error Detection and Correction:**
  - Built-in error detection mechanisms to identify inconsistencies and potential 
 errors in data entry. 
+
 **Secure Data Storage and Compliance:**
  - HIPAA-compliant data storage and transmission protocols to ensure patient 
 privacy and data security. 
