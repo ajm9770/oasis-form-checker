@@ -7,3 +7,20 @@ An [OASIS form](https://www.cms.gov/files/document/oasis-e1-all-item-508.pdf) is
 - `models` : typically contains model definitions. the 
 - `backend`: code for the backend layer of the application--mostly delegates to the other layers
 - `frontend`: code for the frontend layer of application
+
+## Decision Making for linear RAG vs Agentic approaches
+
+An Agentic workflow requires a chain of thought reasoning approach, whereas much easier fields will just need a RAG extraction.
+
+| Factor                  | Agentic Needed                          | Basic RAG Sufficient                  |
+|-------------------------|-----------------------------------------|---------------------------------------|
+| **Field Complexity**    | High (e.g., M1033 risk scores)          | Low (e.g., M0100 dates)               |
+| **Data Consistency**    | Multiple conflicting sources            | Single source of truth                |
+| **Error Tolerance**     | Critical (high stakes)                  | Moderate (with human review)          |
+| **Regulatory Needs**    | Strict audit requirements               | Basic logging sufficient              |
+| **Latency Budget**      | Seconds acceptable                      | Sub-second required                   |
+| **Reasoning Depth**     | Multi-hop or conditional logic needed   | Direct extraction possible            |
+| **Data Sources**        | Multiple documents (transcript, history)| Single document                       |
+| **Validation Needs**    | Iterative self-correction required      | Basic validation sufficient           |
+| **Human-in-the-Loop**   | Minimal human intervention desired      | Human review acceptable               |
+| **Scalability**         | Moderate to high scalability needed     | Small-scale use cases                 |
