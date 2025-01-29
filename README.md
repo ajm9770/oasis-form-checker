@@ -3,7 +3,7 @@
 **Objective:** The Home Care Nurse OASIS Form Automation App leverages advanced Natural Language Processing (NLP) and Artificial Intelligence (AI) to streamline the completion of OASIS forms for home care nurses. By listening to and interpreting nurse-patient interactions, the app extracts relevant clinical data and automatically populates the OASIS form, reducing manual data entry/validation and minimizing errors. Streamlining OASIS assessments and improving care coordination for home health patients. 
  
 ## Key Features 
-- NLP-Powered Transcription and Data Extraction:
+*NLP-Powered Transcription and Data Extraction:*
  - Real-time transcription of nurse-patient conversations and dictation.
  - Advanced NLP algorithms to identify and extract relevant clinical data points
 - Intelligent OASIS Form Filling:
