@@ -1,5 +1,3 @@
-I'll help extract the relevant clinical details from these notes while excluding the insurance information.
-
 Key Patient Details:
 - Age: 80
 - DOB: 1943
