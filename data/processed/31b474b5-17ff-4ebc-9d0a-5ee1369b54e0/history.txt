@@ -1,0 +1,40 @@
+Patient Information:
+Medicare#: [REDACTED]
+Date of Birth: 1945 (78)
+Gender: Male
+Language: English
+Triage Code: Medium Priority
+
+Primary Diagnosis: End-stage COPD (J44.9)
+Secondary Diagnosis: Oxygen Dependent, Cachexia
+Primary Clinician: Dr. Lisa Thompson
+Start of Care: 01/22/2024
+
+History of Present Illness:
+78-year-old male with severe COPD requiring continuous oxygen therapy. Recent hospitalization for exacerbation, now stable but requiring increased support at home. Reports dyspnea with minimal exertion.
+
+Past Medical History:
+- COPD (diagnosed 2005)
+- Cor pulmonale
+- Osteoporosis
+- Anxiety
+- Cachexia
+
+Past Surgical History:
+- Lung volume reduction surgery (2018)
+- Inguinal hernia repair (2010)
+
+Physical Examination:
+General: Thin, cachectic male in mild respiratory distress
+Respiratory: Decreased breath sounds, prolonged expiration
+Cardiovascular: Tachycardic, regular rhythm
+Weight: 120 lbs (down from 135 lbs 6 months ago)
+O2 Saturation: 93% on 3L oxygen
+
+Care Plan:
+- Skilled nursing 2x weekly
+- Respiratory therapy 2x weekly
+- Nutritional counseling
+- Oxygen management
+- Medication teaching
+- Energy conservation techniques

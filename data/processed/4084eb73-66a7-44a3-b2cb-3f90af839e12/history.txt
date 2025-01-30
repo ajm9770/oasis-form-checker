@@ -1,0 +1,71 @@
+Key Patient Details:
+- Age: 80
+- DOB: 1943
+- Gender: Male
+- Language: English
+
+Admit Information:
+- Type: Emergency
+- Chief Complaint: Chest pain
+- Initial Presentation: Chest pain mainly over left side, with radiation to left shoulder and arm. Not associated with exertion. Improved after Percocet in ER.
+
+Relevant History:
+Past Medical History:
+- Atrial fibrillation (status post Watchman)
+- Coronary artery disease
+- Diabetes mellitus
+- GERD/gastritis
+- Hypertension
+- Severe aortic stenosis
+- Charcot joint
+- Osteomyelitis of the foot
+- History of stroke in right thalamus (2023)
+
+Past Surgical History:
+- Appendectomy
+- CABG
+- Coronary stent placement
+- Watchman procedure
+- Cholecystectomy
+
+Social History:
+- Lives in Homosassa with wife
+- Has 2 children
+- Former employee of County Sheriff's office
+- Worked overseas in Middle East
+- Spent time in Bosnia
+- No alcohol or smoking
+
+Physical Examination:
+- General: Alert, awake, oriented
+- Head/Eyes: Atraumatic, clear cornea, PERRLA
+- ENT: Moist mucosal membranes
+- Neck: Full range of motion, non-tender
+- Cardiovascular: Irregular rhythm, murmur
+- Respiratory: Aerating well, clear to auscultation, symmetric expansion, no distress
+- Abdomen: Non-tender, normal bowel sounds, soft, no distention
+- Extremities: No clubbing, no cyanosis, no edema
+
+Case Management/Care Planning:
+- Arranged for Home Health services
+- Orders include: Disease Management-Skilled Nurse and Physical Therapy
+
+Assessment & Plan:
+Primary Issues:
+1. Chest pain
+2. Chronic respiratory failure
+3. Left PleurX catheter status for recurrent left pleural effusion
+4. Severe aortic stenosis
+5. Type 2 diabetes
+6. Chronic systolic heart failure
+7. History of Nonischemic cardiomyopathy
+8. Chronic anemia
+9. Thrombocytopenia
+
+Plan:
+- Admit to telemetry
+- Monitor troponin levels
+- Morphine PRN
+- Nitroglycerin PRN
+- Electrolyte replacement protocol
+- Cardiology consultation

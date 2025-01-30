@@ -1,0 +1,41 @@
+Patient Information:
+Medicare#: [REDACTED]
+Date of Birth: 1950 (73)
+Gender: Female
+Language: English
+Triage Code: High Priority
+
+Primary Diagnosis: Advanced Pancreatic Cancer (C25.9)
+Secondary Diagnosis: Chronic Pain, Malnutrition
+Primary Clinician: Dr. Michael Brown
+Start of Care: 01/25/2024
+
+History of Present Illness:
+73-year-old female with stage IV pancreatic cancer receiving palliative care. Recently hospitalized for pain control and hydration. Now stable with moderate pain controlled on current regimen. Family requesting support for home management.
+
+Past Medical History:
+- Pancreatic cancer diagnosed 2023
+- Depression
+- Hypertension
+- Osteoporosis
+- History of DVT (2023)
+
+Past Surgical History:
+- Port placement (2023)
+- Diagnostic laparoscopy (2023)
+- Hysterectomy (1990)
+
+Physical Examination:
+General: Fatigued but alert, oriented
+Pain: 3/10 on current medication regimen
+Nutrition: Poor appetite, weight loss noted
+Skin: Intact but friable
+Mobility: Requires assistance with ambulation
+
+Care Plan:
+- Skilled nursing daily
+- Physical therapy evaluation
+- Pain management
+- Family/caregiver education
+- Nutritional support
+- Palliative care coordination

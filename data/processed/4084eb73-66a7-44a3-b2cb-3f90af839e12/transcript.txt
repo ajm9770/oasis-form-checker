@@ -1,0 +1,65 @@
+**OASIS Documentation Summary**  
+
+**Patient Demographics**  
+- DOB: [REDACTED] (age 80, based on 1943 birth year)  
+- Visit Date/Time: 03/30/24, 10:50 AM – 11:50 AM  
+- Emergency Contact: Daughter ([REDACTED])  
+- Primary Physician: [REDACTED], NP  
+- Allergies: Aspirin, Compazine, Sulfa antibiotics  
+
+**Medical History**  
+- **Active Diagnoses**:  
+  - Osteomyelitis (right lower leg, chronic for 3 years, unmanaged).  
+  - Diabetes Mellitus (insulin-dependent, fasting glucose 176 mg/dL).  
+  - COPD, Hypertension, Hyperlipidemia, Atrial Fibrillation, GERD, Peripheral Vascular Disease, Acute Kidney Failure.  
+  - Pleural effusion with indwelling catheter (left lower lung lobe, last drained 03/28/24).  
+- **Recent Hospitalization**: 03/22/24 – 03/28/24 for pleural effusion.  
+- **Immunizations**: Flu, Pneumonia, COVID-19 (up-to-date); Shingles vaccine declined.  
+
+**Functional Status**  
+- **Mobility**:  
+  - Uses walker/cane indoors; wheelchair for long distances.  
+  - Moderate assistance required for transfers/ambulation.  
+  - History of falls (none in last 3 months).  
+- **ADLs**:  
+  - Independent in bathing (uses shower chair/grab bars), dressing (needs clothing laid out), and self-administering insulin (prepared by spouse).  
+  - Supervision needed for bed mobility and transfers.  
+- **Sensory/Cognitive**:  
+  - Alert and oriented x3 (person, place, time).  
+  - Requires glasses for reading; denies hearing aids.  
+  - Recalled 3/3 words (blue, bed, sock) during cognitive screen.  
+
+**Vital Signs**  
+- BP: 112/78 mmHg (right arm).  
+- HR: 90 bpm; SpO2: 97% (room air).  
+- Temp: 98.5°F; RR: 18.  
+- Weight: 162 lbs (100-lb weight loss over 1 year). Height: 5’10”.  
+
+**Wound/Catheter Care**  
+- **Skin Tear**: Right foot, third toe (0.5x0.5x0.1 cm). Treated with silver sulfadiazine and bandage.  
+- **Pleural Catheter**: Dry, intact dressing. No current drainage orders; pending MD coordination for twice-weekly care.  
+
+**Care Plan**  
+1. **Nursing**:  
+   - Wound care (clean with saline, silver sulfadiazine, dressing changes twice weekly).  
+   - Catheter drainage (awaiting MD orders).  
+   - Medication management (insulin, pain control for osteomyelitis).  
+2. **Therapy**: Physical therapy evaluation for balance/endurance (scheduled 03/31–04/02).  
+3. **Education**: Fall prevention, slow ambulation with assistive devices, foot care (encourage supportive shoes).  
+
+**Risk Factors**  
+- High fall risk (weakness, balance issues).  
+- Unmanaged osteomyelitis (pain level 8/10, no current specialist follow-up).  
+- Significant weight loss (100 lbs/year; monitor for malnutrition).  
+
+**Follow-Up**  
+- Coordinate with primary MD for osteomyelitis management, catheter orders, and pain medication.  
+- Schedule home health nurse visits twice weekly.  
+- Ensure PT/OT initiates strengthening program.  
+
+**Homebound Status**  
+- Confirmed due to weakness, high infection risk, and dependency on assistive devices. Requires caregiver assistance to leave home.  
+
+---  
+**Signature/Date**: [RN Name], 03/31/24  
+**Next Visit**: Pending PT evaluation and MD orders (target 04/01–04/02).  
