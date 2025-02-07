@@ -4,7 +4,7 @@
  
 ## Key Features 
 **NLP-Powered Transcription and Data Extraction:**
- - Real-time transcription of nurse-patient conversations and dictation.
+ - Transcription of nurse-patient conversations and dictation.
  - Advanced NLP algorithms to identify and extract relevant clinical data points
 
 **Intelligent OASIS Form Filling:**
