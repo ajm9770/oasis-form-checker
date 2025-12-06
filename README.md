@@ -1,7 +1,64 @@
 # Design Document: Home Care Nurse OASIS Form Automation App
 
-**Objective:** The Home Care Nurse OASIS Form Automation App leverages advanced Natural Language Processing (NLP) and Artificial Intelligence (AI) to streamline the completion of OASIS forms for home care nurses. By listening to and interpreting nurse-patient interactions, the app extracts relevant clinical data and automatically populates the OASIS form, reducing manual data entry/validation and minimizing errors. Streamlining OASIS assessments and improving care coordination for home health patients. 
- 
+**Objective:** The Home Care Nurse OASIS Form Automation App leverages advanced Natural Language Processing (NLP) and Artificial Intelligence (AI) to streamline the completion of OASIS forms for home care nurses. By listening to and interpreting nurse-patient interactions, the app extracts relevant clinical data and automatically populates the OASIS form, reducing manual data entry/validation and minimizing errors. Streamlining OASIS assessments and improving care coordination for home health patients.
+
+## 🚀 Prototype Status
+
+**UPDATE (December 2025)**: A fully functional prototype has been implemented and is ready for testing!
+
+### What's Working
+- ✅ **Complete RAG Pipeline** - Document embedding, context retrieval, and AI-powered form extraction
+- ✅ **Claude AI Integration** - Uses Claude 3.5 Sonnet for intelligent OASIS data extraction
+- ✅ **Streamlit Web Interface** - Interactive UI for testing and demonstration
+- ✅ **Sample Patient Data** - Realistic clinical transcripts and patient history included
+- ✅ **Validation & Scoring** - Confidence scoring and data completeness checks
+- ✅ **Structured Outputs** - Pydantic models ensure type safety and OASIS compliance
+
+### Quick Start
+
+Get the prototype running in 3 minutes:
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Configure API keys (requires Anthropic + OpenAI keys)
+cp .env.example .env
+# Edit .env and add your API keys
+
+# 3. Run the demo
+python demo.py
+
+# Or launch the web interface
+streamlit run src/frontend/app.py
+```
+
+📖 **See [QUICKSTART.md](QUICKSTART.md) for detailed setup instructions and usage guide.**
+
+### Architecture Implementation
+
+The prototype demonstrates:
+- **RAG (Retrieval-Augmented Generation)**: ChromaDB vector database with OpenAI embeddings
+- **AI Form Extraction**: Claude processes clinical conversations and outputs structured OASIS data
+- **OASIS Schema Coverage**: Demographics, diagnosis, cognitive status, ADL assessment, medications, living situation, fall risk
+- **Validation Pipeline**: Structural validation + AI-powered clinical consistency checks
+
+### Current Capabilities vs. Production Goals
+
+| Feature | Prototype Status | Production Needed |
+|---------|-----------------|-------------------|
+| Document Embedding | ✅ Working | Scale + Performance optimization |
+| OASIS Form Extraction | ✅ 20+ fields | Expand to full 100+ field coverage |
+| Web Interface | ✅ Streamlit demo | Production-grade UI/UX |
+| Validation | ✅ Basic checks | Clinical review workflow |
+| Data Security | ⚠️ Local only | HIPAA compliance infrastructure |
+| EHR Integration | ❌ Not implemented | HL7/FHIR connectors needed |
+| Real-time Transcription | ❌ Text input only | Whisper/Deepgram integration |
+
+**This prototype proves the core concept is feasible and demonstrates the AI can successfully extract structured OASIS data from unstructured clinical conversations.**
+
+---
+
 ## Key Features 
 **NLP-Powered Transcription and Data Extraction:**
  - Transcription of nurse-patient conversations and dictation.
