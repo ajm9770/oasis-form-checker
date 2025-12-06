@@ -1,0 +1,146 @@
+PATIENT MEDICAL HISTORY SUMMARY
+Patient ID: PAT-2024-001
+Patient Name: Margaret Thompson
+DOB: May 15, 1945 (Age: 79)
+Gender: Female
+
+PREVIOUS OASIS ASSESSMENTS:
+==================================================
+
+Assessment Date: October 1, 2024 (60 days prior)
+---------------------------------------------------
+Primary Diagnosis: Osteoarthritis, right hip (M16.11)
+Secondary Diagnoses:
+  - Essential hypertension (I10)
+  - Hyperlipidemia (E78.5)
+  - Osteoporosis without current pathological fracture (M81.0)
+
+Cognitive Functioning (M1700): 1 - Requires prompting (cuing, repetition)
+Confusion Frequency (M1710): 1 - In new or complex situations only
+Anxiety (M1730): Present, moderate anxiety noted
+
+ADL Functional Status:
+  - Grooming: 1 - Setup help only
+  - Dressing Upper Body: 0 - Independent
+  - Dressing Lower Body: 3 - Partial assistance required
+  - Bathing: 3 - Partial assistance required
+  - Toileting: 1 - With assistive device (raised seat)
+  - Transferring: 2 - Supervision required
+  - Ambulation (M1860): 1 - Requires use of device (walker)
+
+Fall Risk: HIGH
+Fall History: Yes - 1 fall in past 90 days (September 15, 2024 - kitchen fall)
+
+Medications (as of October 1, 2024):
+  1. Lisinopril 10mg daily (hypertension)
+  2. Atorvastatin 20mg daily (hyperlipidemia)
+  3. Acetaminophen 500mg BID PRN (pain)
+  4. Aspirin 81mg daily (cardiovascular prophylaxis)
+  5. Vitamin D3 1000 IU daily
+  6. Calcium carbonate 600mg BID
+
+Living Situation: Lives alone in single-story home
+Primary Caregiver: Daughter (Susan Thompson) - visits 2x/week
+Support Services: Home health nursing weekly, no home health aide
+
+==================================================
+
+HOSPITALIZATION HISTORY:
+---------------------------------------------------
+Last Hospitalization: April 2022
+Reason: Cholecystectomy (gallbladder removal)
+Length of Stay: 2 days
+Complications: None
+Discharge Status: Home with home health follow-up
+
+Previous Hospitalizations:
+  - March 2020: Hypertensive crisis, admitted for BP management (3 days)
+  - June 2015: Pneumonia (5 days)
+
+==================================================
+
+EMERGENCY DEPARTMENT VISITS (Past 12 months):
+---------------------------------------------------
+September 20, 2024: Fall with no fracture detected
+  - X-rays: Right hip - no acute fracture
+  - Discharged home with walker and PT referral
+  - Follow-up: Home health nursing initiated
+
+==================================================
+
+SPECIALIST CONSULTATIONS:
+---------------------------------------------------
+Orthopedic Surgery (Dr. Michael Chen):
+  - Last visit: November 15, 2024
+  - Assessment: Severe osteoarthritis right hip
+  - Recommendation: Conservative management currently;
+    hip replacement candidate if pain/function worsen
+  - Next appointment: February 2025
+
+Cardiology (Dr. Patricia Williams):
+  - Last visit: August 2024
+  - Assessment: Well-controlled hypertension
+  - Plan: Continue current medications
+  - Next appointment: February 2025
+
+Primary Care (Dr. Robert Martinez):
+  - Last visit: November 30, 2024
+  - Assessment: Stable chronic conditions
+  - Labs: Lipid panel WNL, Vitamin D 28 ng/mL (low normal)
+  - Plan: Continue medications, increase Vitamin D
+  - Next appointment: March 2025
+
+==================================================
+
+FUNCTIONAL TRENDS (Past 6 months):
+---------------------------------------------------
+June 2024: Independent ambulation with cane
+August 2024: Increased hip pain, limited to 1 block walking
+September 2024: Fall incident, downgraded to walker use
+October 2024: Further limitation in ADLs, requires assistance bathing
+December 2024: Stable with current assistive devices and support
+
+==================================================
+
+SOCIAL HISTORY:
+---------------------------------------------------
+Marital Status: Widowed (husband deceased 2018)
+Children: 1 daughter (Susan, lives 10 minutes away)
+Living Environment: Single-story house, owned, 3 bedrooms
+  - Home modifications: Grab bars in bathroom, raised toilet seat,
+    shower chair, non-slip mats, improved lighting
+Pets: None
+Smoking: Never smoker
+Alcohol: None
+Exercise: Limited due to pain - chair exercises 3x/week
+
+==================================================
+
+CURRENT CARE PLAN GOALS:
+---------------------------------------------------
+1. Prevent falls through environmental modifications and assistive devices
+2. Maintain independence in ADLs with appropriate assistance
+3. Optimize pain management for hip arthritis
+4. Medication adherence and management
+5. Monitor for progression of osteoarthritis
+6. Support patient's desire to age in place safely
+
+==================================================
+
+RISK FACTORS:
+---------------------------------------------------
+- High fall risk due to mobility impairment and history of falls
+- Lives alone with limited caregiver support
+- Chronic pain affecting ADL function
+- Age-related cognitive changes requiring prompting
+- Polypharmacy (6+ medications)
+- Progressive degenerative joint disease
+
+==================================================
+
+PATIENT GOALS (Patient-Reported):
+---------------------------------------------------
+1. "I want to stay in my home as long as possible"
+2. "I want to be able to take care of myself without being a burden"
+3. "I'd like to manage my pain better so I can do more"
+4. "I want to avoid another fall"
