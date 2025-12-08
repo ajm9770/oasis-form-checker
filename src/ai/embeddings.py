@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import List, Optional
 import chromadb
 from chromadb.config import Settings
-from langchain_openai import OpenAIEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -13,8 +13,7 @@ from langchain.schema import Document
 from src.config.settings import (
     CHROMA_DB_DIR,
     CHROMA_COLLECTION_NAME,
-    EMBEDDING_MODEL,
-    OPENAI_API_KEY
+    EMBEDDING_MODEL
 )
 
 
@@ -22,13 +21,12 @@ class DocumentEmbedder:
     """Handles document embedding and storage in ChromaDB."""
 
     def __init__(self, collection_name: str = CHROMA_COLLECTION_NAME):
-        """Initialize the document embedder with ChromaDB and OpenAI embeddings."""
-        if not OPENAI_API_KEY:
-            raise ValueError("OPENAI_API_KEY not set in environment")
-
-        self.embedding_function = OpenAIEmbeddings(
-            model=EMBEDDING_MODEL,
-            openai_api_key=OPENAI_API_KEY
+        """Initialize the document embedder with ChromaDB and local embeddings."""
+        # Use local HuggingFace embeddings (no API key required)
+        self.embedding_function = HuggingFaceEmbeddings(
+            model_name=EMBEDDING_MODEL,
+            model_kwargs={'device': 'cpu'},
+            encode_kwargs={'normalize_embeddings': True}
         )
 
         # Initialize ChromaDB client

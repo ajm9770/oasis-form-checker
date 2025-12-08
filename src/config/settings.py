@@ -17,13 +17,13 @@ CHROMA_DB_DIR = DATA_DIR / "chroma_db"
 
 # API Keys
 ANTHROPIC_API_KEY: Optional[str] = os.getenv("ANTHROPIC_API_KEY")
-OPENAI_API_KEY: Optional[str] = os.getenv("OPENAI_API_KEY")
 
 # Database Configuration
 CHROMA_COLLECTION_NAME: str = os.getenv("CHROMA_COLLECTION_NAME", "oasis_patient_data")
 
 # Model Configuration
-EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
+# Using local sentence-transformers for embeddings (no API key required)
+EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
 LLM_MODEL: str = os.getenv("LLM_MODEL", "claude-3-5-sonnet-20241022")
 LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.0"))
 

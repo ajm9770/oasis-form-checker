@@ -11,39 +11,37 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from src.ai.embeddings import embed_patient_documents, DocumentEmbedder
 from src.ai.form_filler import OASISFormFiller
-from src.config.settings import RAW_DATA_DIR, ANTHROPIC_API_KEY, OPENAI_API_KEY
+from src.config.settings import RAW_DATA_DIR, ANTHROPIC_API_KEY
 
 
 def check_api_keys():
-    """Check if required API keys are configured."""
+    """Check if required API key is configured."""
     issues = []
     if not ANTHROPIC_API_KEY:
         issues.append("ANTHROPIC_API_KEY not set")
-    if not OPENAI_API_KEY:
-        issues.append("OPENAI_API_KEY not set")
     return issues
 
 
 def main():
     st.set_page_config(
         page_title="OASIS Form Automation",
-        page_icon="<å",
+        page_icon="<ï¿½",
         layout="wide"
     )
 
-    st.title("<å OASIS Form Automation Prototype")
+    st.title("<ï¿½ OASIS Form Automation Prototype")
     st.markdown("*AI-Powered Home Healthcare Documentation*")
 
     # Check API keys
     api_issues = check_api_keys()
     if api_issues:
-        st.error(f"  Configuration Issues: {', '.join(api_issues)}")
-        st.info("Please set your API keys in a .env file:\n- ANTHROPIC_API_KEY\n- OPENAI_API_KEY")
+        st.error(f"ï¿½ Configuration Issues: {', '.join(api_issues)}")
+        st.info("Please set your API key in a .env file:\n- ANTHROPIC_API_KEY=your_key_here\n\nNote: Embeddings use local sentence-transformers (no additional API key needed)")
         st.stop()
 
     # Sidebar
     with st.sidebar:
-        st.header("™ Configuration")
+        st.header("ï¿½ Configuration")
 
         mode = st.radio(
             "Select Mode:",
@@ -68,7 +66,7 @@ def main():
         )
 
     # Main content
-    tab1, tab2, tab3 = st.tabs(["=Ë Generate Form", "=Ä View Documents", "9 About"])
+    tab1, tab2, tab3 = st.tabs(["=ï¿½ Generate Form", "=ï¿½ View Documents", "9 About"])
 
     with tab1:
         st.header("Generate OASIS Form")
@@ -84,7 +82,7 @@ def main():
                 st.success(" Sample data loaded and ready")
 
         with col2:
-            if st.button("=€ Generate OASIS Form", type="primary", use_container_width=True):
+            if st.button("=ï¿½ Generate OASIS Form", type="primary", use_container_width=True):
                 generate_form(patient_id, assessment_date, mode, transcript_file if mode == "Upload Custom Files" else None, history_file if mode == "Upload Custom Files" else None)
 
     with tab2:
@@ -107,7 +105,8 @@ def main():
         4. **Validation**: Pydantic validates data structure and types
 
         ### Technology Stack
-        - **AI**: Anthropic Claude (form filling), OpenAI (embeddings)
+        - **AI**: Anthropic Claude (form filling)
+        - **Embeddings**: Local sentence-transformers (no API key needed)
         - **Vector DB**: ChromaDB
         - **Framework**: LangChain
         - **Frontend**: Streamlit
@@ -190,7 +189,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
 
             # Display form sections
             st.divider()
-            st.subheader("=Ê OASIS Form Data")
+            st.subheader("=ï¿½ OASIS Form Data")
 
             # Demographics
             with st.expander("=d Demographics", expanded=True):
@@ -204,7 +203,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
                         st.write(f"**Gender:** {form_data.demographics.gender or 'N/A'}")
 
             # Primary Diagnosis
-            with st.expander("<å Primary Diagnosis"):
+            with st.expander("<ï¿½ Primary Diagnosis"):
                 if form_data.primary_diagnosis:
                     st.write(f"**Diagnosis:** {form_data.primary_diagnosis.diagnosis_description}")
                     st.write(f"**ICD-10 Code:** {form_data.primary_diagnosis.icd10_code or 'Not documented'}")
@@ -212,7 +211,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
                         st.write(f"**Severity:** {form_data.primary_diagnosis.severity}")
 
             # Cognitive Status
-            with st.expander(">à Cognitive Status"):
+            with st.expander(">ï¿½ Cognitive Status"):
                 if form_data.cognitive_status:
                     st.write(f"**Cognitive Functioning (M1700):** {form_data.cognitive_status.cognitive_functioning or 'N/A'}")
                     st.write(f"**Confusion Frequency (M1710):** {form_data.cognitive_status.confusion_frequency or 'N/A'}")
@@ -220,7 +219,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
                         st.write(f"**Anxiety:** {form_data.cognitive_status.anxiety_level}")
 
             # ADL Status
-            with st.expander("=¶ Activities of Daily Living (ADL)"):
+            with st.expander("=ï¿½ Activities of Daily Living (ADL)"):
                 if form_data.adl_status:
                     col1, col2 = st.columns(2)
                     with col1:
@@ -234,7 +233,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
                         st.write(f"**Ambulation:** {form_data.adl_status.ambulation or 'N/A'}")
 
             # Medications
-            with st.expander("=Š Medications"):
+            with st.expander("=ï¿½ Medications"):
                 if form_data.medication_status:
                     st.write(f"**Total Medications:** {form_data.medication_status.total_medications or 'N/A'}")
                     if form_data.medication_status.high_risk_drugs:
@@ -243,7 +242,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
                         st.write(f"**Compliance:** {form_data.medication_status.medication_compliance}")
 
             # Living Situation
-            with st.expander("<à Living Situation"):
+            with st.expander("<ï¿½ Living Situation"):
                 if form_data.living_situation:
                     st.write(f"**Living Arrangement:** {form_data.living_situation.living_arrangement or 'N/A'}")
                     st.write(f"**Primary Caregiver:** {form_data.living_situation.primary_caregiver or 'N/A'}")
@@ -251,7 +250,7 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
                         st.write(f"**Safety Concerns:** {', '.join(form_data.living_situation.home_safety_concerns)}")
 
             # Safety Assessment
-            with st.expander("  Safety & Fall Risk"):
+            with st.expander("ï¿½ Safety & Fall Risk"):
                 if form_data.safety_assessment:
                     col1, col2 = st.columns(2)
                     with col1:
@@ -263,18 +262,18 @@ def generate_form(patient_id, assessment_date, mode, transcript_file=None, histo
 
             # Clinical Notes
             if form_data.assessor_notes:
-                with st.expander("=Ý Clinical Notes"):
+                with st.expander("=ï¿½ Clinical Notes"):
                     st.write(form_data.assessor_notes)
 
             # Missing Fields Warning
             if form_data.missing_fields:
-                st.warning(f"  Missing Fields: {', '.join(form_data.missing_fields)}")
+                st.warning(f"ï¿½ Missing Fields: {', '.join(form_data.missing_fields)}")
 
             # Download JSON
             st.divider()
             json_data = json.dumps(form_data.model_dump(), indent=2, default=str)
             st.download_button(
-                label="=å Download OASIS Form (JSON)",
+                label="=ï¿½ Download OASIS Form (JSON)",
                 data=json_data,
                 file_name=f"oasis_form_{patient_id}_{assessment_date.strftime('%Y%m%d')}.json",
                 mime="application/json"
@@ -292,11 +291,11 @@ def display_documents(patient_id, mode):
         history_path = RAW_DATA_DIR / "sample_patient_history.txt"
 
         if transcript_path.exists():
-            with st.expander("=Ä Patient Visit Transcript", expanded=False):
+            with st.expander("=ï¿½ Patient Visit Transcript", expanded=False):
                 st.text(transcript_path.read_text())
 
         if history_path.exists():
-            with st.expander("=Ë Patient Medical History", expanded=False):
+            with st.expander("=ï¿½ Patient Medical History", expanded=False):
                 st.text(history_path.read_text())
     else:
         st.info("Upload files in the sidebar to view them here.")

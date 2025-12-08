@@ -14,9 +14,9 @@ This prototype demonstrates AI-powered automation for filling OASIS (Outcome and
 ## Prerequisites
 
 1. **Python 3.9+** installed
-2. **API Keys**:
-   - Anthropic API key (for Claude)
-   - OpenAI API key (for embeddings)
+2. **API Key**:
+   - Anthropic API key (for Claude AI)
+   - Note: Embeddings use local sentence-transformers (no additional API key needed!)
 
 ## Installation
 
@@ -26,7 +26,7 @@ This prototype demonstrates AI-powered automation for filling OASIS (Outcome and
 pip install -r requirements.txt
 ```
 
-### 2. Configure API Keys
+### 2. Configure API Key
 
 Create a `.env` file in the project root:
 
@@ -34,12 +34,13 @@ Create a `.env` file in the project root:
 cp .env.example .env
 ```
 
-Then edit `.env` and add your API keys:
+Then edit `.env` and add your Anthropic API key:
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...your-key-here
-OPENAI_API_KEY=sk-...your-key-here
 ```
+
+**That's it!** Embeddings run locally using sentence-transformers, so no additional API keys needed.
 
 ### 3. Verify Installation
 

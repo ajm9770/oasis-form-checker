@@ -22,9 +22,9 @@ Get the prototype running in 3 minutes:
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Configure API keys (requires Anthropic + OpenAI keys)
+# 2. Configure API key (requires Anthropic key only)
 cp .env.example .env
-# Edit .env and add your API keys
+# Edit .env and add your Anthropic API key
 
 # 3. Run the demo
 python demo.py
@@ -38,7 +38,7 @@ streamlit run src/frontend/app.py
 ### Architecture Implementation
 
 The prototype demonstrates:
-- **RAG (Retrieval-Augmented Generation)**: ChromaDB vector database with OpenAI embeddings
+- **RAG (Retrieval-Augmented Generation)**: ChromaDB vector database with local sentence-transformers embeddings
 - **AI Form Extraction**: Claude processes clinical conversations and outputs structured OASIS data
 - **OASIS Schema Coverage**: Demographics, diagnosis, cognitive status, ADL assessment, medications, living situation, fall risk
 - **Validation Pipeline**: Structural validation + AI-powered clinical consistency checks
@@ -116,9 +116,9 @@ through APIs and secure data exchange protocols.
 - **Mobile and Web Applications:** Provides user-friendly mobile and web applications for 
 seamless access and data entry. 
 
-## Cost Considerations 
+## Cost Considerations
 **Operational Expenses**
- - API Costs: OpenAI API usage, fallback AI usage, transcription
+ - API Costs: Anthropic Claude API usage, transcription services
  - Cloud storage
  - Compute for NLP
  - Monitoring and Alerting

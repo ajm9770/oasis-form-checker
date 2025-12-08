@@ -1,12 +1,10 @@
 # Core AI/ML Dependencies
 anthropic>=0.39.0
-openai>=1.54.0
 langchain>=0.3.0
 langchain-anthropic>=0.3.0
-langchain-openai>=0.2.0
 langchain-community>=0.3.0
 
-# Vector Database
+# Vector Database & Embeddings
 chromadb>=0.5.0
 sentence-transformers>=3.0.0
 

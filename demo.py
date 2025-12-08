@@ -20,7 +20,7 @@ from src.ai.embeddings import embed_patient_documents
 from src.ai.retrieval import ContextRetriever
 from src.ai.form_filler import OASISFormFiller
 from src.ai.validation import OASISValidator
-from src.config.settings import RAW_DATA_DIR, ANTHROPIC_API_KEY, OPENAI_API_KEY
+from src.config.settings import RAW_DATA_DIR, ANTHROPIC_API_KEY
 
 
 def print_section(title):
@@ -36,16 +36,13 @@ def check_requirements():
 
     issues = []
 
-    # Check API keys
+    # Check API key
     if not ANTHROPIC_API_KEY:
         issues.append("❌ ANTHROPIC_API_KEY not set")
     else:
         print("✓ ANTHROPIC_API_KEY configured")
 
-    if not OPENAI_API_KEY:
-        issues.append("❌ OPENAI_API_KEY not set")
-    else:
-        print("✓ OPENAI_API_KEY configured")
+    print("✓ Using local embeddings (no additional API key required)")
 
     # Check sample data
     transcript_path = RAW_DATA_DIR / "sample_transcript.txt"
@@ -66,9 +63,8 @@ def check_requirements():
         for issue in issues:
             print(f"  {issue}")
         print("\nPlease fix these issues before running the demo.")
-        print("\nTo set API keys, create a .env file with:")
+        print("\nTo set your API key, create a .env file with:")
         print("  ANTHROPIC_API_KEY=your_key_here")
-        print("  OPENAI_API_KEY=your_key_here")
         return False
 
     print("\n✓ All requirements met!")
